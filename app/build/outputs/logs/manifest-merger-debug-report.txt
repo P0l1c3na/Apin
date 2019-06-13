@@ -1,206 +1,202 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
-MERGED from [com.android.support:design:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/56559b8a2c577744d7bc16056e76180f/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/d65ab80456d165e8b9533fb3508d47f3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/omupa/.gradle/caches/transforms-2/files-2.1/9b07c88ea228cb4beda963741ed8336a/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/6cbda8ba68e82de3d4e77da69d04fa4e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3b5a5934fb93609fdc26e5e0ab59e635/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/cec7cb6b841bafa008752861a189d575/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/51c0c281b3fce64b1e794770221bb47e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/dceb59eed8bda9a831074430ea6db0fb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3bc1016314fd36c0df7233bc5618372b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/f924ed1e7874c3b5523c03a4ef985b81/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/612cce5a7cecc764aaea5cb1b09e6ddc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/4cf090031fae8ed3d6c54c291ca3fc1f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8897e579778d942def59be6180016847/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8f75f12aaa433d6444fc0a7509c72a40/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/b1e9fd0d752d53e527e81785085b194d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1638397495ae68629fc1abe7f27a11eb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3a7d11af5179b684646ab506f8563ba3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/b129a6501e3e815a90dc8e9ef0b8f2d8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/576b031a6b3bc0e5155fe63d1b8c02f9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/6d50bf3f00b2ad4328551f576e70e6c9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/71b2584e258f7133f5086ead3233091a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/7c231d55fcb679b7d885cc4c36a7ea74/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/26c6f9316e14cf46dbe63870e7771807/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1b29b80996e22f0ad4d7a9636729900e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/ee9885af727d0b6460ae31a9110d1c66/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8d65825f2184ca379c56dfcb4ff68536/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/7a951d3004d8ec1ab463c83f3e912820/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1b03defb66005dc4e7b5384dbecbbbe6/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/37bfdee8044d7867eb0f1fea93e7713e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/5051833c03d51737bbb10950f5a82483/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/bca09b724ce84883cc38e06ac734ef41/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/2d8caf74ad1c9c1450a336705b844833/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/3e846de4ac08211e76c9c8ba50b36ea6/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\89cd5528ca3d3b6a5aff97077da2c8d8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\c0269f2e9ffe7e8587f5f420e846ecad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\33a8c24d7e7ffd25c1e91614866897fa\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\ea24e41fcc63d6eca737e1db242c5a26\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3491a3d640e70b3611e8df7a42471faa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\eda814ce202999f0353f88c06eccb60e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\64fe2ef2cbcd609a20b30fd532ec77e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\ef98fba3b015a3d521980ac942c0c72b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\54525fba8ee45d9d163143aa7056cc7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\e7757bd7e75eca1f278fdc59234ec773\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\08ee3673d144b71f80983fdc5b5cb6c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\a4e2f6a503d871aff8271aa2b159c4d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\b1701d1d65a077549769a6dad6f90e87\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\dd3ebadd66b44ae27fa6612add58c873\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\819211ed10215efef4acb348c6d30e71\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\85027a08a54d27070c019914fbdea5cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\54418df205ac242f4b9054707a52e0f9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9513c9f0e4e35b321597763c03ffa181\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9fdbffbcd9518308de2fdffc6d7cb316\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3d390894c629502a5c563288874001c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3755d0a0ea1b3f713a46197dfce80a88\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9096248dcc270b50c7396f816c5148b5\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\928f92f86f4f20cf39a9675b338618c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9fef74dbbc380c91929f7945ebf3048c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\f4aa7b2c485dadf0f82802122b9695a4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\43713714c93e0ca0280f81098de6aa97\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\d9883b1d2bf47de01e62b3d9d85b4b80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\0f989c6473e19dae353e1e1a4053106c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\de02433040a35d0d6dfca8f5e5845fd6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\170dfd1813b482355a39d90a6b3152dd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\159b0ea3db998e730a5764c03f18c4a4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\d6903fd253bab259e20add3610244ffa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\989fc3b920fc47b73ca9fde2abdc1b41\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:3:5-23
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:3:5-23
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:1-37:12
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:5:5-35:19
-MERGED from [com.android.support:design:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/56559b8a2c577744d7bc16056e76180f/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/56559b8a2c577744d7bc16056e76180f/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/omupa/.gradle/caches/transforms-2/files-2.1/9b07c88ea228cb4beda963741ed8336a/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/omupa/.gradle/caches/transforms-2/files-2.1/9b07c88ea228cb4beda963741ed8336a/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/71b2584e258f7133f5086ead3233091a/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/71b2584e258f7133f5086ead3233091a/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/7c231d55fcb679b7d885cc4c36a7ea74/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/7c231d55fcb679b7d885cc4c36a7ea74/AndroidManifest.xml:22:5-23:19
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:5:5-34:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\89cd5528ca3d3b6a5aff97077da2c8d8\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\89cd5528ca3d3b6a5aff97077da2c8d8\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\33a8c24d7e7ffd25c1e91614866897fa\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\33a8c24d7e7ffd25c1e91614866897fa\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3755d0a0ea1b3f713a46197dfce80a88\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3755d0a0ea1b3f713a46197dfce80a88\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9096248dcc270b50c7396f816c5148b5\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9096248dcc270b50c7396f816c5148b5\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/71b2584e258f7133f5086ead3233091a/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3755d0a0ea1b3f713a46197dfce80a88\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.apin.Pratylenchus
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:12:9-15:68
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:12:9-15:68
 	android:label
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:14:13-64
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:14:13-64
 	android:theme
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:15:13-56
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:15:13-56
 	android:name
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:13:13-41
 activity#com.apin.Meloidogyne
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:16:9-19:59
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:16:9-19:59
 	android:label
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:18:13-63
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:18:13-63
 	android:theme
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:19:13-56
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:17:13-40
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:17:13-40
 activity#com.apin.Heterodera
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:20:9-23:59
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:20:9-23:59
 	android:label
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:22:13-62
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:22:13-62
 	android:theme
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:23:13-56
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:21:13-39
-activity#com.apin.NavigationDrawer
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:24:9-27:59
-	android:label
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:26:13-69
-	android:theme
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:27:13-56
-	android:name
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:25:13-45
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:21:13-39
 activity#com.apin.MainActivity
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:28:9-34:20
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:24:9-33:20
+	android:label
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:26:13-69
+	android:theme
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:27:13-56
 	android:name
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:28:19-47
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml:31:27-74
 uses-sdk
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/56559b8a2c577744d7bc16056e76180f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/56559b8a2c577744d7bc16056e76180f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/d65ab80456d165e8b9533fb3508d47f3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/d65ab80456d165e8b9533fb3508d47f3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/omupa/.gradle/caches/transforms-2/files-2.1/9b07c88ea228cb4beda963741ed8336a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/omupa/.gradle/caches/transforms-2/files-2.1/9b07c88ea228cb4beda963741ed8336a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/6cbda8ba68e82de3d4e77da69d04fa4e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/6cbda8ba68e82de3d4e77da69d04fa4e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3b5a5934fb93609fdc26e5e0ab59e635/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3b5a5934fb93609fdc26e5e0ab59e635/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/cec7cb6b841bafa008752861a189d575/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/cec7cb6b841bafa008752861a189d575/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/51c0c281b3fce64b1e794770221bb47e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/51c0c281b3fce64b1e794770221bb47e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/dceb59eed8bda9a831074430ea6db0fb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/dceb59eed8bda9a831074430ea6db0fb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3bc1016314fd36c0df7233bc5618372b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3bc1016314fd36c0df7233bc5618372b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/f924ed1e7874c3b5523c03a4ef985b81/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/f924ed1e7874c3b5523c03a4ef985b81/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/612cce5a7cecc764aaea5cb1b09e6ddc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/612cce5a7cecc764aaea5cb1b09e6ddc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/4cf090031fae8ed3d6c54c291ca3fc1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/4cf090031fae8ed3d6c54c291ca3fc1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8897e579778d942def59be6180016847/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8897e579778d942def59be6180016847/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8f75f12aaa433d6444fc0a7509c72a40/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8f75f12aaa433d6444fc0a7509c72a40/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/b1e9fd0d752d53e527e81785085b194d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/b1e9fd0d752d53e527e81785085b194d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1638397495ae68629fc1abe7f27a11eb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1638397495ae68629fc1abe7f27a11eb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3a7d11af5179b684646ab506f8563ba3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/3a7d11af5179b684646ab506f8563ba3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/b129a6501e3e815a90dc8e9ef0b8f2d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/b129a6501e3e815a90dc8e9ef0b8f2d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/576b031a6b3bc0e5155fe63d1b8c02f9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/576b031a6b3bc0e5155fe63d1b8c02f9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/6d50bf3f00b2ad4328551f576e70e6c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/6d50bf3f00b2ad4328551f576e70e6c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/71b2584e258f7133f5086ead3233091a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/71b2584e258f7133f5086ead3233091a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/7c231d55fcb679b7d885cc4c36a7ea74/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/7c231d55fcb679b7d885cc4c36a7ea74/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/26c6f9316e14cf46dbe63870e7771807/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/26c6f9316e14cf46dbe63870e7771807/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1b29b80996e22f0ad4d7a9636729900e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1b29b80996e22f0ad4d7a9636729900e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/ee9885af727d0b6460ae31a9110d1c66/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/ee9885af727d0b6460ae31a9110d1c66/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8d65825f2184ca379c56dfcb4ff68536/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/8d65825f2184ca379c56dfcb4ff68536/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/7a951d3004d8ec1ab463c83f3e912820/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/7a951d3004d8ec1ab463c83f3e912820/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1b03defb66005dc4e7b5384dbecbbbe6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/1b03defb66005dc4e7b5384dbecbbbe6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/37bfdee8044d7867eb0f1fea93e7713e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/37bfdee8044d7867eb0f1fea93e7713e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/5051833c03d51737bbb10950f5a82483/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/omupa/.gradle/caches/transforms-2/files-2.1/5051833c03d51737bbb10950f5a82483/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/bca09b724ce84883cc38e06ac734ef41/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/bca09b724ce84883cc38e06ac734ef41/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/2d8caf74ad1c9c1450a336705b844833/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/2d8caf74ad1c9c1450a336705b844833/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/3e846de4ac08211e76c9c8ba50b36ea6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/omupa/.gradle/caches/transforms-2/files-2.1/3e846de4ac08211e76c9c8ba50b36ea6/AndroidManifest.xml:20:5-44
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\89cd5528ca3d3b6a5aff97077da2c8d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\89cd5528ca3d3b6a5aff97077da2c8d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\c0269f2e9ffe7e8587f5f420e846ecad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\c0269f2e9ffe7e8587f5f420e846ecad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\33a8c24d7e7ffd25c1e91614866897fa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\33a8c24d7e7ffd25c1e91614866897fa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\ea24e41fcc63d6eca737e1db242c5a26\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\ea24e41fcc63d6eca737e1db242c5a26\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3491a3d640e70b3611e8df7a42471faa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3491a3d640e70b3611e8df7a42471faa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\eda814ce202999f0353f88c06eccb60e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\eda814ce202999f0353f88c06eccb60e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\64fe2ef2cbcd609a20b30fd532ec77e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\64fe2ef2cbcd609a20b30fd532ec77e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\ef98fba3b015a3d521980ac942c0c72b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\ef98fba3b015a3d521980ac942c0c72b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\54525fba8ee45d9d163143aa7056cc7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\54525fba8ee45d9d163143aa7056cc7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\e7757bd7e75eca1f278fdc59234ec773\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\e7757bd7e75eca1f278fdc59234ec773\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\08ee3673d144b71f80983fdc5b5cb6c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\08ee3673d144b71f80983fdc5b5cb6c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\a4e2f6a503d871aff8271aa2b159c4d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\a4e2f6a503d871aff8271aa2b159c4d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\b1701d1d65a077549769a6dad6f90e87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\b1701d1d65a077549769a6dad6f90e87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\dd3ebadd66b44ae27fa6612add58c873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\dd3ebadd66b44ae27fa6612add58c873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\819211ed10215efef4acb348c6d30e71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\819211ed10215efef4acb348c6d30e71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\85027a08a54d27070c019914fbdea5cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\85027a08a54d27070c019914fbdea5cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\54418df205ac242f4b9054707a52e0f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\54418df205ac242f4b9054707a52e0f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9513c9f0e4e35b321597763c03ffa181\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9513c9f0e4e35b321597763c03ffa181\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9fdbffbcd9518308de2fdffc6d7cb316\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9fdbffbcd9518308de2fdffc6d7cb316\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3d390894c629502a5c563288874001c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3d390894c629502a5c563288874001c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3755d0a0ea1b3f713a46197dfce80a88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\3755d0a0ea1b3f713a46197dfce80a88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9096248dcc270b50c7396f816c5148b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9096248dcc270b50c7396f816c5148b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\928f92f86f4f20cf39a9675b338618c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\928f92f86f4f20cf39a9675b338618c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9fef74dbbc380c91929f7945ebf3048c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\9fef74dbbc380c91929f7945ebf3048c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\f4aa7b2c485dadf0f82802122b9695a4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\f4aa7b2c485dadf0f82802122b9695a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\43713714c93e0ca0280f81098de6aa97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\43713714c93e0ca0280f81098de6aa97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\d9883b1d2bf47de01e62b3d9d85b4b80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\d9883b1d2bf47de01e62b3d9d85b4b80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\0f989c6473e19dae353e1e1a4053106c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\0f989c6473e19dae353e1e1a4053106c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\de02433040a35d0d6dfca8f5e5845fd6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\de02433040a35d0d6dfca8f5e5845fd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\170dfd1813b482355a39d90a6b3152dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\170dfd1813b482355a39d90a6b3152dd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\159b0ea3db998e730a5764c03f18c4a4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\159b0ea3db998e730a5764c03f18c4a4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\d6903fd253bab259e20add3610244ffa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\d6903fd253bab259e20add3610244ffa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\989fc3b920fc47b73ca9fde2abdc1b41\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Raphael Policena\.gradle\caches\transforms-2\files-2.1\989fc3b920fc47b73ca9fde2abdc1b41\AndroidManifest.xml:20:5-44
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-		ADDED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/omupa/AndroidStudioProjects/Apin/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projetos\Apin\app\src\main\AndroidManifest.xml

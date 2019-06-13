@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/omupa/AndroidStudioProjects/Apin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "D:\\Projetos\\Apin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/home/omupa/.gradle/caches/transforms-2/files-2.1/d65ab80456d165e8b9533fb3508d47f3/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\Raphael Policena\\.gradle\\caches\\transforms-2\\files-2.1\\c0269f2e9ffe7e8587f5f420e846ecad\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

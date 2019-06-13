@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/omupa/AndroidStudioProjects/Apin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "D:\\Projetos\\Apin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/omupa/.gradle/caches/transforms-2/files-2.1/d65ab80456d165e8b9533fb3508d47f3/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\Raphael Policena\\.gradle\\caches\\transforms-2\\files-2.1\\c0269f2e9ffe7e8587f5f420e846ecad\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

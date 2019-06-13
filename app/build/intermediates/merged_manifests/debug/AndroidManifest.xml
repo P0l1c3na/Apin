@@ -31,10 +31,9 @@
             android:label="@string/title_activity_heterodera"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.apin.NavigationDrawer"
+            android:name="com.apin.MainActivity"
             android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.apin.MainActivity" >
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
