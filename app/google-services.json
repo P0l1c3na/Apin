@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "478930925335",
+    "firebase_url": "https://apin-ifgoiano.firebaseio.com",
+    "project_id": "apin-ifgoiano",
+    "storage_bucket": "apin-ifgoiano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478930925335:android:c44fbdc5fb596030",
+        "android_client_info": {
+          "package_name": "com.apin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478930925335-ock7svet90npmc4klenccv9eqbndc2m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apin",
+            "certificate_hash": "072f149874a356a5b2c6edb57ee086be8a26bf8c"
+          }
+        },
+        {
+          "client_id": "478930925335-vu1cscrdmjofa0p1aefcqo9mtbnb8j9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6L7ARHh2qayXLbKX-7Lm_TdVlnqsThTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478930925335-vu1cscrdmjofa0p1aefcqo9mtbnb8j9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

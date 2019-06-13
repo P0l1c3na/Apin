@@ -119,8 +119,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_tools) {
 
-        } else if (id == R.id.nav_share) {
-
+        } else if (id == R.id.nav_adm) {
+            Intent login = new Intent(this, AdminLogin.class);
+            startActivity(login);
         } else if (id == R.id.nav_send) {
 
         }
