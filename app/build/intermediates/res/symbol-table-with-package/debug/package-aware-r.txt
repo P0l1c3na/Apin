@@ -1091,6 +1091,8 @@ id META
 id SHIFT
 id SYM
 id action0
+id action_Logout
+id action_addAdmin
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1103,6 +1105,7 @@ id action_context_bar
 id action_divider
 id action_home
 id action_image
+id action_inicio
 id action_menu_divider
 id action_menu_presenter
 id action_milho
@@ -1133,6 +1136,7 @@ id buttonPanel
 id button_heterodera
 id button_meloidogyne
 id button_pratylenchus
+id cadastrar
 id cancel_action
 id center
 id center_horizontal
@@ -1232,6 +1236,7 @@ id parent
 id parentPanel
 id parent_matrix
 id password
+id passwordsi
 id percent
 id pin
 id progressBar
@@ -1319,6 +1324,7 @@ id unlabeled
 id up
 id useLogo
 id username
+id usernamesi
 id view_offset_helper
 id visible
 id wide
@@ -1373,6 +1379,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_admin
 layout activity_admin_login
 layout activity_edit_panel_admin
 layout activity_heterodera
@@ -1431,6 +1438,7 @@ menu menu_meloidogyne
 menu menu_pratylenchus
 menu menu_scrolling
 menu navigation_drawer
+menu navigation_drawer_admin
 mipmap heterodera
 mipmap heterodera10
 mipmap heterodera11
@@ -1498,6 +1506,9 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_addAdmin
+string action_inicio
+string action_logout
 string action_settings
 string action_sign_in
 string action_sign_in_short

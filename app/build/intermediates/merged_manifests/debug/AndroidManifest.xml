@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.apin.RecoveryPassword" />
+        <activity android:name="com.apin.AddAdmin" />
         <activity
             android:name="com.apin.EditPanelAdmin"
             android:launchMode="singleTop" />
