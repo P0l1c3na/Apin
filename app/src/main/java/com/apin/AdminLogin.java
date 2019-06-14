@@ -41,7 +41,7 @@ public class AdminLogin extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if (user != null) {
-                    Intent intent = new Intent(AdminLogin.this, MainActivity.class);
+                    Intent intent = new Intent(AdminLogin.this, EditPanelAdmin.class);
                     startActivity(intent);
                     finish();
                 } else {
@@ -108,6 +108,11 @@ public class AdminLogin extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         mAuth.removeAuthStateListener(firebaseAuthListener);
+    }
+
+    public void recoveryPassword(View v){
+        Intent rp = new Intent(this, RecoveryPassword.class);
+        startActivity(rp);
     }
 
 }

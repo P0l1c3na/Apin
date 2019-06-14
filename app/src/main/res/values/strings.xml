@@ -116,4 +116,7 @@
     <string name="title_activity_meloidogyne">Meloidogyne</string>
     <string name="title_activity_pratylenchus">Pratylenchus</string>
     <string name="administra_o">Administração</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
