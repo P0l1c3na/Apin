@@ -32,21 +32,28 @@
         <activity android:name="com.apin.RecoveryPassword" />
         <activity android:name="com.apin.AddAdmin" />
         <activity
+            android:name="com.apin.ConteudoMeloydogine"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.apin.ConteudoHeterodera"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.apin.ConteudoPratylenchus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.apin.Soja"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.apin.Milho"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.apin.EditPanelAdmin"
             android:launchMode="singleTop" />
         <activity android:name="com.apin.AdminLogin" />
-        <activity
-            android:name="com.apin.Pratylenchus"
-            android:label="@string/title_activity_pratylenchus"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.apin.Meloidogyne"
-            android:label="@string/title_activity_meloidogyne"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.apin.Heterodera"
-            android:label="@string/title_activity_heterodera"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.apin.MainActivity"
             android:label="@string/title_activity_navigation_drawer"

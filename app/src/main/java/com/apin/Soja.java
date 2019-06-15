@@ -64,7 +64,7 @@ public class Soja extends AppCompatActivity implements NavigationView.OnNavigati
 
                 intent.putExtra("titulo", "Melodoigyne Incognita");
                 intent.putExtra("document", "soja");
-                intent.putExtra("tipo", "meloydogyneincognita");
+                intent.putExtra("tipo", "meloidogyneincognita");
                 startActivity(intent);
             }
         });
