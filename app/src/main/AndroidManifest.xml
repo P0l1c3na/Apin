@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecoveryPassword"/>
-        <activity android:name=".AddAdmin"></activity>
+        <activity android:name=".EditsAdmin.EditGlycines"></activity>
+        <activity android:name=".EditsAdmin.EditJavanica" />
+        <activity android:name=".EditsAdmin.EditIncognita" />
+        <activity android:name=".EditsAdmin.EditBranchy" />
+        <activity android:name=".EditsAdmin.EditZeae" />
+        <activity android:name=".RecoveryPassword" />
+        <activity android:name=".AddAdmin" />
         <activity
             android:name=".EditPanelAdmin"
             android:launchMode="singleTop" />

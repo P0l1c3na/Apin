@@ -8,6 +8,11 @@
         android:minSdkVersion="26"
         android:targetSdkVersion="28" />
 
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
@@ -18,6 +23,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.apin.EditsAdmin.EditGlycines" />
+        <activity android:name="com.apin.EditsAdmin.EditJavanica" />
+        <activity android:name="com.apin.EditsAdmin.EditIncognita" />
+        <activity android:name="com.apin.EditsAdmin.EditBranchy" />
+        <activity android:name="com.apin.EditsAdmin.EditZeae" />
         <activity android:name="com.apin.RecoveryPassword" />
         <activity android:name="com.apin.AddAdmin" />
         <activity
@@ -59,6 +69,9 @@
             android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 

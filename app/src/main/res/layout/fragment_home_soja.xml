@@ -5,10 +5,117 @@
     android:layout_height="match_parent"
     tools:context=".fragments.admin.HomeSoja">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Home Soja" />
 
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/melodoll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/button_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvmelodoygene"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/meloidogyne"
+                android:textAlignment="center"
+                android:textColor="@color/primaryColor"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tvSpecies"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/esp_cies"
+                android:textAlignment="center"
+                android:textColor="@color/primaryDarkColor"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/icognita"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:elevation="4dp"
+                android:text="@string/inc_gnita"
+                android:textColor="#6F6F6F" />
+
+            <Button
+                android:id="@+id/javanica"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:elevation="4dp"
+                android:text="@string/javanica"
+                android:textColor="#6F6F6F" />
+
+
+            <LinearLayout
+                android:id="@+id/heteroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="150dp"
+                android:background="@drawable/button_shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvHeterodera"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="@string/heterodera"
+                    android:textAlignment="center"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tvSpecieshtero"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/esp_cies"
+                    android:textAlignment="center"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/glycines"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:elevation="4dp"
+                    android:text="@string/glycines"
+                    android:textColor="#6F6F6F" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

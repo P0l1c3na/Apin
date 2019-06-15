@@ -30,7 +30,7 @@ public class EditPanelAdmin extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.action_milho:
-                        getSupportActionBar().setTitle("Generos");
+                        getSupportActionBar().setTitle("Gênero");
                         Fragment hm = HomeMilho.newInstance();
                         openFragment(hm);
                         Toast.makeText(EditPanelAdmin.this, "Milho", Toast.LENGTH_SHORT).show();
@@ -43,7 +43,7 @@ public class EditPanelAdmin extends AppCompatActivity {
                         Toast.makeText(EditPanelAdmin.this, "Home", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.action_soja:
-                        getSupportActionBar().setTitle("Generos");
+                        getSupportActionBar().setTitle("Gêneros");
                         Fragment hsja = HomeSoja.newInstance();
                         openFragment(hsja);
                         Toast.makeText(EditPanelAdmin.this, "Soja", Toast.LENGTH_SHORT).show();
@@ -67,7 +67,6 @@ public class EditPanelAdmin extends AppCompatActivity {
         // automatically handle clicks on the HomeSoja/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_inicio) {
             Intent inicio = new Intent(this, MainActivity.class);
