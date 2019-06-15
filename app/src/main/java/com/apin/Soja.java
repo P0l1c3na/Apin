@@ -10,7 +10,6 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -101,9 +100,9 @@ public class Soja extends AppCompatActivity implements NavigationView.OnNavigati
 
         if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_milho) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_soja) {
 
         } else if (id == R.id.nav_tools) {
 

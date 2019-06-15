@@ -11,11 +11,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.apin.database.FirebaseConfig;
@@ -114,9 +111,9 @@ public class ConteudoMeloydogine extends AppCompatActivity implements Navigation
 
         if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_milho) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_soja) {
 
         } else if (id == R.id.nav_tools) {
 

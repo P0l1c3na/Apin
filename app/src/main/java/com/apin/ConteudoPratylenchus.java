@@ -11,7 +11,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -112,9 +111,9 @@ public class ConteudoPratylenchus extends AppCompatActivity  implements Navigati
 
         if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_milho) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_soja) {
 
         } else if (id == R.id.nav_tools) {
 

@@ -1240,10 +1240,10 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id nav_adm
-id nav_gallery
 id nav_home
+id nav_milho
 id nav_send
-id nav_slideshow
+id nav_soja
 id nav_tools
 id nav_view
 id navigation_header_container
@@ -1556,6 +1556,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string culturas
 string default_web_client_id
 string editar_branchy
 string editar_glycines

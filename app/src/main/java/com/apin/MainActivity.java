@@ -13,7 +13,6 @@ import android.support.v4.widget.DrawerLayout;
 
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
@@ -84,11 +83,14 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_milho) {
+            Intent intent = new Intent(this, Milho.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_soja) {
+            Intent intent = new Intent(this, Soja.class);
+            startActivity(intent);
         } else if (id == R.id.nav_tools) {
 
         } else if (id == R.id.nav_adm) {
