@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Projetos\\Apin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
+            "outputFile": "/home/omupa/Apin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Raphael Policena\\.gradle\\caches\\transforms-2\\files-2.1\\5edf44775b5873efa7e589afaa9b3c8d\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "source": "/home/omupa/.gradle/caches/transforms-2/files-2.1/44538c1050d783ce149e54d4c5eea414/res/values-es-rUS/values-es-rUS.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Raphael Policena\\.gradle\\caches\\transforms-2\\files-2.1\\0587df6991b9bcad32629dd6c767be2a\\res\\values-es-rUS\\values.xml",
+                    "source": "/home/omupa/.gradle/caches/transforms-2/files-2.1/1545fe8970286b6508dcc0822db431e3/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5738",
+                        "endColumns": "100",
+                        "endOffsets": "5834"
+                    }
+                },
+                {
+                    "source": "/home/omupa/.gradle/caches/transforms-2/files-2.1/f0e9ae04a6b141222d34ef9580c2703b/res/values-es-rUS/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Raphael Policena\\.gradle\\caches\\transforms-2\\files-2.1\\b92ceb314e7c08a8f34b18eb3317b00d\\res\\values-es-rUS\\values.xml",
+                    "source": "/home/omupa/.gradle/caches/transforms-2/files-2.1/5caea8cc70e694cd999e55701094502c/res/values-es-rUS/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,23 +69,6 @@
                         "startOffsets": "4031",
                         "endColumns": "204",
                         "endOffsets": "4231"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Raphael Policena\\.gradle\\caches\\transforms-2\\files-2.1\\b9192f189c8d2fe2f3b6832c17f287f0\\res\\values-es-rUS\\values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5738",
-                        "endColumns": "100",
-                        "endOffsets": "5834"
                     }
                 }
             ]

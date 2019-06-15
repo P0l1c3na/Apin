@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Projetos\\Apin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "/home/omupa/Apin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Raphael Policena\\.gradle\\caches\\transforms-2\\files-2.1\\5edf44775b5873efa7e589afaa9b3c8d\\res\\values-v17\\values-v17.xml",
+                    "source": "/home/omupa/.gradle/caches/transforms-2/files-2.1/44538c1050d783ce149e54d4c5eea414/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

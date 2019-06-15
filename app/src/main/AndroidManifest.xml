@@ -9,22 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ConteudoMeloydogine"/>
+        <activity android:name=".ConteudoHeterodera"/>
+        <activity android:name=".ConteudoPratylenchus"/>
+        <activity android:name=".Soja" />
+        <activity android:name=".Milho" />
         <activity
             android:name=".EditPanelAdmin"
-            android:launchMode="singleTop"></activity>
+            android:launchMode="singleTop" />
         <activity android:name=".AdminLogin" />
-        <activity
-            android:name=".Pratylenchus"
-            android:label="@string/title_activity_pratylenchus"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Meloidogyne"
-            android:label="@string/title_activity_meloidogyne"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Heterodera"
-            android:label="@string/title_activity_heterodera"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_navigation_drawer"

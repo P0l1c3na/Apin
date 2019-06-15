@@ -1,4 +1,4 @@
-#Fri Jun 14 10:31:53 BRT 2019
-base.0=D\:\\Projetos\\Apin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+#Sat Jun 15 10:10:42 BRT 2019
+base.0=/home/omupa/Apin/app/build/intermediates/transforms/dexMerger/debug/2
 path.0=classes.dex
 renamed.0=classes.dex

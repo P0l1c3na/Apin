@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_drawer);
         Toolbar toolbar = findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -42,32 +43,22 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        Button buttonHeterodera = findViewById(R.id.button_heterodera);
-        buttonHeterodera.setOnClickListener(new View.OnClickListener() {
+        Button buttonMilho = findViewById(R.id.button_milho);
+        buttonMilho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, Heterodera.class);
+                Intent intent = new Intent(MainActivity.this, Milho.class);
                 startActivity(intent);
             }
         });
 
-        Button buttonMeloidogyne = findViewById(R.id.button_meloidogyne);
-        buttonMeloidogyne.setOnClickListener(new View.OnClickListener() {
+        Button buttonSoja = findViewById(R.id.button_meloidogyne);
+        buttonSoja.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, Meloidogyne.class);
-                startActivity(intent);
-            }
-        });
-
-        Button buttonPratylenchus = findViewById(R.id.button_pratylenchus);
-        buttonPratylenchus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity.this, Pratylenchus.class);
+                Intent intent = new Intent(MainActivity.this, Soja.class);
                 startActivity(intent);
             }
         });

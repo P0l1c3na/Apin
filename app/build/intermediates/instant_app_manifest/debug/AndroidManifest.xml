@@ -9,6 +9,9 @@
         android:minSdkVersion="26"
         android:targetSdkVersion="28" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
@@ -19,22 +22,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.apin.ConteudoMeloydogine" />
+        <activity android:name="com.apin.ConteudoHeterodera" />
+        <activity android:name="com.apin.ConteudoPratylenchus" />
+        <activity android:name="com.apin.Soja" />
+        <activity android:name="com.apin.Milho" />
         <activity
             android:name="com.apin.EditPanelAdmin"
             android:launchMode="singleTop" />
         <activity android:name="com.apin.AdminLogin" />
-        <activity
-            android:name="com.apin.Pratylenchus"
-            android:label="@string/title_activity_pratylenchus"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.apin.Meloidogyne"
-            android:label="@string/title_activity_meloidogyne"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.apin.Heterodera"
-            android:label="@string/title_activity_heterodera"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.apin.MainActivity"
             android:label="@string/title_activity_navigation_drawer"
@@ -59,6 +55,9 @@
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
         <activity
@@ -75,11 +74,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.apin.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>
