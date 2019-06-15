@@ -14,6 +14,8 @@
         <activity android:name=".ConteudoPratylenchus"/>
         <activity android:name=".Soja" />
         <activity android:name=".Milho" />
+        <activity android:name=".RecoveryPassword"/>
+        <activity android:name=".AddAdmin"></activity>
         <activity
             android:name=".EditPanelAdmin"
             android:launchMode="singleTop" />
