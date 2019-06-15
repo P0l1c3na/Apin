@@ -68,7 +68,7 @@ public class EditPanelAdmin extends AppCompatActivity {
         // automatically handle clicks on the HomeSoja/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-    /*
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_inicio) {
             Intent inicio = new Intent(this, MainActivity.class);
@@ -82,7 +82,7 @@ public class EditPanelAdmin extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
-*/
+
         return super.onOptionsItemSelected(item);
     }
 

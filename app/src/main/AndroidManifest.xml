@@ -9,27 +9,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConteudoMeloydogine"/>
-        <activity android:name=".ConteudoHeterodera"/>
-        <activity android:name=".ConteudoPratylenchus"/>
-        <activity android:name=".Soja" />
-        <activity android:name=".Milho" />
+        <activity android:name=".ConteudoMeloydogine"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".ConteudoHeterodera"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".ConteudoPratylenchus"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Soja"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Milho"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity android:name=".RecoveryPassword"/>
-        <activity android:name=".AddAdmin"></activity>
+        <activity android:name=".AddAdmin"/>
         <activity
             android:name=".EditPanelAdmin"
             android:launchMode="singleTop" />
         <activity android:name=".AdminLogin" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
