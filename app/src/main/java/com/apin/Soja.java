@@ -1,32 +1,31 @@
 package com.apin;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
-import android.support.v4.view.GravityCompat;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.view.MenuItem;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class Soja extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_drawer);
+        setContentView(R.layout.activity_soja);
         Toolbar toolbar = findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar);
-        //Action buton
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,8 +34,6 @@ public class MainActivity extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
-
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -45,23 +42,42 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
-
-        Button buttonMilho = findViewById(R.id.button_milho);
-        buttonMilho.setOnClickListener(new View.OnClickListener() {
+        // INICIO
+        Button buttonMeloidogyne = findViewById(R.id.button_meloidogyne);
+        buttonMeloidogyne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                intent = new Intent(Soja.this, ConteudoMeloydogine.class);
 
-                Intent intent = new Intent(MainActivity.this, Milho.class);
+                intent.putExtra("titulo", "Melodoigyne Javanica");
+                intent.putExtra("document", "soja");
+                intent.putExtra("tipo", "melodoigynejavanica");
                 startActivity(intent);
             }
         });
 
-        Button buttonSoja = findViewById(R.id.button_meloidogyne);
-        buttonSoja.setOnClickListener(new View.OnClickListener() {
+        Button buttonMeloidogyneIncognita = findViewById(R.id.button_meloydogyneincognita);
+        buttonMeloidogyneIncognita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                intent = new Intent(Soja.this, ConteudoMeloydogine.class);
 
-                Intent intent = new Intent(MainActivity.this, Soja.class);
+                intent.putExtra("titulo", "Melodoigyne Incognita");
+                intent.putExtra("document", "soja");
+                intent.putExtra("tipo", "meloydogyneincognita");
+                startActivity(intent);
+            }
+        });
+
+        Button buttonHeterodera = findViewById(R.id.button_heterodera);
+        buttonHeterodera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(Soja.this, ConteudoHeterodera.class);
+
+                intent.putExtra("titulo", "Heterodera Glycines");
+                intent.putExtra("document", "soja");
+                intent.putExtra("tipo", "heteroderaglycines");
                 startActivity(intent);
             }
         });

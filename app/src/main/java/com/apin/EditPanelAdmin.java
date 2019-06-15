@@ -52,6 +52,7 @@ public class EditPanelAdmin extends AppCompatActivity {
                 return true;
             }
         });
+
     }
 
     @Override

@@ -2,31 +2,43 @@ package com.apin;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
-import android.support.v4.view.GravityCompat;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.view.MenuItem;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.widget.Button;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+import com.apin.database.FirebaseConfig;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+public class ConteudoHeterodera extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener{
+
+    TextView titulo;
+    TextView conteudo;
+
+    FirebaseFirestore db = FirebaseConfig.getFirebaseFirestore();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_drawer);
+        setContentView(R.layout.activity_conteudo_heterodera);
         Toolbar toolbar = findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar);
-        //Action buton
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,8 +47,6 @@ public class MainActivity extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
-
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -45,26 +55,43 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
+        // INICIO
+        Intent intent = getIntent();
+        String tituloIntent = intent.getStringExtra("titulo");
 
-        Button buttonMilho = findViewById(R.id.button_milho);
-        buttonMilho.setOnClickListener(new View.OnClickListener() {
+        titulo = findViewById(R.id.titulo);
+        conteudo = findViewById(R.id.conteudo);
+
+        titulo.setText(tituloIntent);
+
+        // FIrebaseFirestore
+        read(intent.getStringExtra("document"), intent.getStringExtra("tipo"));
+    }
+
+    // Carregando do Firestore
+    private void read(String document, final String tipo) {
+        DocumentReference user = db.collection("nematoides").document(document);
+
+        user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+
             @Override
-            public void onClick(View v) {
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
 
-                Intent intent = new Intent(MainActivity.this, Milho.class);
-                startActivity(intent);
+                if (task.isSuccessful()) {
+
+                    DocumentSnapshot doc = task.getResult();
+                    StringBuilder fields = new StringBuilder("");
+                    fields.append(doc.get(tipo));
+
+                    conteudo.setText(fields.toString());
+                }
             }
-        });
-
-        Button buttonSoja = findViewById(R.id.button_meloidogyne);
-        buttonSoja.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity.this, Soja.class);
-                startActivity(intent);
-            }
-        });
+        })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                    }
+                });
     }
 
     @Override

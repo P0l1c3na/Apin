@@ -16,32 +16,43 @@
         <activity android:name=".EditsAdmin.EditZeae" />
         <activity android:name=".RecoveryPassword" />
         <activity android:name=".AddAdmin" />
+        <activity android:name=".ConteudoMeloydogine"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ConteudoHeterodera"
+
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+            android:label="@string/title_activity_navigation_drawer"
+        <activity android:name=".ConteudoPratylenchus"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Soja"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Milho"
+
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".RecoveryPassword"/>
+        <activity android:name=".AddAdmin"/>
         <activity
             android:name=".EditPanelAdmin"
             android:launchMode="singleTop" />
         <activity android:name=".AdminLogin" />
-        <activity
-            android:name=".Pratylenchus"
-            android:label="@string/title_activity_pratylenchus"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Meloidogyne"
-            android:label="@string/title_activity_meloidogyne"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Heterodera"
-            android:label="@string/title_activity_heterodera"
-            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
