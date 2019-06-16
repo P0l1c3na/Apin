@@ -1,6 +1,7 @@
 package com.apin;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -91,13 +92,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_soja) {
             Intent intent = new Intent(this, Soja.class);
             startActivity(intent);
-        } else if (id == R.id.nav_tools) {
-
+        } else if (id == R.id.nav_wheater) {
+            Intent wheater = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.cptec.inpe.br/"));
+            startActivity(wheater);
         } else if (id == R.id.nav_adm) {
             Intent login = new Intent(this, AdminLogin.class);
             startActivity(login);
-        } else if (id == R.id.nav_send) {
-
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

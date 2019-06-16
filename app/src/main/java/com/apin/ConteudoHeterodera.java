@@ -1,6 +1,7 @@
 package com.apin;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -110,18 +111,20 @@ public class ConteudoHeterodera extends AppCompatActivity  implements Navigation
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_milho) {
-
+            Intent intent = new Intent(this, Milho.class);
+            startActivity(intent);
         } else if (id == R.id.nav_soja) {
-
-        } else if (id == R.id.nav_tools) {
-
+            Intent intent = new Intent(this, Soja.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_wheater) {
+            Intent wheater = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.cptec.inpe.br/"));
+            startActivity(wheater);
         } else if (id == R.id.nav_adm) {
             Intent login = new Intent(this, AdminLogin.class);
             startActivity(login);
-        } else if (id == R.id.nav_send) {
-
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

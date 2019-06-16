@@ -8,30 +8,30 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_milho"
-            android:icon="@drawable/ic_milho"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_soja"
-            android:icon="@drawable/ic_soja"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_share"
-            android:title="@string/menu_tools" />
-    </group>
 
-    <item android:title="Administrador">
+        <item
+            android:id="@+id/nav_wheater"
+            android:icon="@drawable/ic_wheater"
+            android:title="@string/menu_wheater" />
+    </group>
+    <item android:title="Culturas">
+        <menu>
+            <item
+                android:id="@+id/nav_milho"
+                android:icon="@drawable/ic_milho"
+                android:title="@string/menu_gallery" />
+            <item
+                android:id="@+id/nav_soja"
+                android:icon="@drawable/ic_soja"
+                android:title="@string/menu_slideshow" />
+        </menu>
+    </item>
+    <item android:title="Administração">
         <menu>
             <item
                 android:id="@+id/nav_adm"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/ic_admin"
                 android:title="@string/menu_adm" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
         </menu>
     </item>
 

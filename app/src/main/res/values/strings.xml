@@ -23,7 +23,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Milho</string>
     <string name="menu_slideshow">Soja</string>
-    <string name="menu_tools">Tools</string>
+    <string name="menu_wheater">Clima</string>
     <string name="menu_adm">Painel do Administrador</string>
     <string name="menu_send">Send</string>
     <string name="title_activity_heterodera">Heterodera</string>
@@ -136,4 +136,5 @@
     <string name="editar_javanica">Editar | Javanica</string>
     <string name="editar_incognita">Editar | Incógnita</string>
     <string name="culturas">Culturas</string>
+    <string name="nemat_ides">Nematóides</string>
 </resources>

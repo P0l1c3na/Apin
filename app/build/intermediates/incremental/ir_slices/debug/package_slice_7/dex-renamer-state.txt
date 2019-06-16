@@ -1,4 +1,4 @@
-#Sat Jun 15 20:46:50 BRT 2019
+#Sun Jun 16 13:10:12 BRT 2019
 base.0=D\:\\Projetos\\Apin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,6 +1,7 @@
 package com.apin;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -89,20 +90,21 @@ public class Milho extends AppCompatActivity implements NavigationView.OnNavigat
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
         if (id == R.id.nav_home) {
-            // Handle the camera action
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_milho) {
-
+            Intent intent = new Intent(this, Milho.class);
+            startActivity(intent);
         } else if (id == R.id.nav_soja) {
-
-        } else if (id == R.id.nav_tools) {
-
+            Intent intent = new Intent(this, Soja.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_wheater) {
+            Intent wheater = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.cptec.inpe.br/"));
+            startActivity(wheater);
         } else if (id == R.id.nav_adm) {
             Intent login = new Intent(this, AdminLogin.class);
             startActivity(login);
-        } else if (id == R.id.nav_send) {
-
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
