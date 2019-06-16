@@ -47,6 +47,7 @@
             android:layout_marginRight="12dp"
             android:background="@drawable/button_shape"
             android:elevation="4dp"
+            android:textStyle="italic"
             android:text="Melodoigyne Javanica"
             android:textColor="#6F6F6F" />
 
@@ -59,7 +60,8 @@
             android:layout_marginRight="12dp"
             android:background="@drawable/button_shape"
             android:elevation="4dp"
-            android:text="Meloydogyne Incognita"
+            android:textStyle="italic"
+            android:text="Meloidogyne Incognita"
             android:textColor="#6F6F6F" />
 
         <Button
@@ -71,6 +73,7 @@
             android:layout_marginRight="12dp"
             android:background="@drawable/button_shape"
             android:elevation="4dp"
+            android:textStyle="italic"
             android:text="Heterodera Glycines"
             android:textColor="#6F6F6F" />
     </LinearLayout>

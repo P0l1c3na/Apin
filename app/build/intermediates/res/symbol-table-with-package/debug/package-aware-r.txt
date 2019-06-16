@@ -1576,12 +1576,10 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
-string hello_blank_fragment
 string heterodera
 string hide_bottom_view_on_scroll_behavior
 string inc_gnita
 string javanica
-string large_text
 string meloidogyne
 string menu_adm
 string menu_gallery
@@ -1607,6 +1605,7 @@ string prompt_email
 string prompt_password
 string search_menu_title
 string seja_bem_vindo
+string sigla
 string status_bar_notification_info_overflow
 string title_activity_heterodera
 string title_activity_meloidogyne

@@ -47,6 +47,7 @@
             android:layout_marginRight="12dp"
             android:background="@drawable/button_shape"
             android:elevation="4dp"
+            android:textStyle="italic"
             android:text="Patylenchus Brachyurus"
             android:textColor="#6F6F6F" />
 
@@ -59,6 +60,7 @@
             android:layout_marginRight="12dp"
             android:background="@drawable/button_shape"
             android:elevation="4dp"
+            android:textStyle="italic"
             android:text="Pratylenchus Zeae"
             android:textColor="#6F6F6F" />
     </LinearLayout>
