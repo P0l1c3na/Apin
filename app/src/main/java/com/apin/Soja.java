@@ -30,8 +30,8 @@ public class Soja extends AppCompatActivity implements NavigationView.OnNavigati
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent c = new Intent(Soja.this, Contato.class);
+                startActivity(c);
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

@@ -31,6 +31,8 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical|center_horizontal"
                 android:textSize="25sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
                 android:textColor="@color/primaryColor"
                 android:text="@string/culturas"/>
         </android.support.v7.widget.CardView>

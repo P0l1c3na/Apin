@@ -40,6 +40,14 @@
     <string name="cardHomeAdm">Aqui você pode editar o conteúdo disposto na aplicação. \n\n Você também pode adicionar novos adminitradores clicando no botão situado no canto superior
     direito.
         </string>
+    <string name="rodrigo">  \tNome: Rodrigo Canedo Machado \n\temail: knedorodrigo@outlook.com\n\tTelefone: (64)999769897</string>
+
+    <string name="prof">   \tNome: Professora \n\temail: fessora@gmail.com \n\tTelefone: (64)999769897</string>
+
+    <string name="phael">\tNome: Raphael P. Policena Rosa\n\temail: phaelpolicena@gmail.com \n\tBacharelado em Sistemas de \n\tInformação
+
+    </string>
+    <string name="omupa">\tNome: Otávio Murilo da Paz\n\temail: murilotavio10@gmail.com \n\tBacharelado em Sistemas de \n\tInformação</string>
     <string name="seja_bem_vindo">Seja Bem Vindo!</string>
     <string name="editar_glycines">Editar | Glycines</string>
     <string name="editar_branchy">Editar | Branchyurus</string>
@@ -49,4 +57,8 @@
     <string name="culturas">Culturas</string>
     <string name="nemat_ides">Nematóides</string>
     <string name="sigla">Aplicativo Prático de Identificação de Nematóides</string>
+    <string name="title_activity_contato">Contato</string>
+    <string name="brachyurus">Brachyurus</string>
+    <string name="zeae">Zeae</string>
+
 </resources>

@@ -48,7 +48,7 @@
             android:background="@drawable/button_shape"
             android:elevation="4dp"
             android:textStyle="italic"
-            android:text="Melodoigyne Javanica"
+            android:text="Meloidogyne Javanica"
             android:textColor="#6F6F6F" />
 
         <Button
@@ -61,7 +61,7 @@
             android:background="@drawable/button_shape"
             android:elevation="4dp"
             android:textStyle="italic"
-            android:text="Meloidogyne Incognita"
+            android:text="Meloidogyne Incógnita"
             android:textColor="#6F6F6F" />
 
         <Button
