@@ -41,7 +41,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/primaryDarkColor"
                 android:textSize="15sp" />
-
+<!--
             <Button
                 android:id="@+id/icognita"
                 android:layout_width="match_parent"
@@ -55,7 +55,7 @@
                 android:elevation="4dp"
                 android:text="@string/inc_gnita"
                 android:textStyle="italic"
-                android:textColor="#6F6F6F" />
+                android:textColor="#6F6F6F" /> -->
 
             <Button
                 android:id="@+id/javanica"
@@ -66,6 +66,7 @@
                 android:layout_marginRight="12dp"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
+                android:minHeight="100dp"
                 android:background="@drawable/button_shape"
                 android:elevation="4dp"
                 android:text="@string/javanica"
@@ -79,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:layout_marginBottom="150dp"
+                android:minHeight="400dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -108,7 +110,7 @@
                 <Button
                     android:id="@+id/glycines"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="91dp"
                     android:layout_marginLeft="12dp"
                     android:layout_marginTop="30dp"
                     android:layout_marginRight="12dp"
@@ -116,9 +118,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_shape"
                     android:elevation="4dp"
+                    android:minHeight="10dp"
                     android:text="@string/glycines"
-                    android:textStyle="italic"
-                    android:textColor="#6F6F6F" />
+                    android:textColor="#6F6F6F"
+                    android:textStyle="italic" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -7,6 +7,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +15,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.TextView;
 
 import com.apin.database.FirebaseConfig;
@@ -25,10 +27,18 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class ConteudoMeloydogine extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-
+    private String[] imageUrls = new String[]{
+            "https://i.ibb.co/jJwwY5s/microscopia-1.jpg",
+            "https://i.ibb.co/tqbCFTR/microscopia-1.jpg",
+            "https://i.ibb.co/F4Qqhjt/parte-a-rea-1.jpg",
+            "https://i.ibb.co/mG5XXxt/parte-a-rea.jpg",
+            "https://i.ibb.co/m0bxXVs/raiz-1.jpg",
+            "https://i.ibb.co/MZYrwmp/raiz-4.jpg",
+            "https://i.ibb.co/CvMvHcY/raiz.jpg"
+    };
     TextView titulo;
     TextView conteudo;
-
+    WebView wb;
     FirebaseFirestore db = FirebaseConfig.getFirebaseFirestore();
 
 
@@ -37,6 +47,10 @@ public class ConteudoMeloydogine extends AppCompatActivity implements Navigation
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conteudo_meloidogyne);
         Toolbar toolbar = findViewById(R.id.toolbar);
+
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        ViewPagerAdapter adapter = new ViewPagerAdapter(this, imageUrls);
+        viewPager.setAdapter(adapter);
 
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -61,8 +75,8 @@ public class ConteudoMeloydogine extends AppCompatActivity implements Navigation
 
         titulo = findViewById(R.id.titulo);
         conteudo = findViewById(R.id.conteudo);
-
-        titulo.setText(tituloIntent);
+        wb = findViewById(R.id.webViewMelo);
+        titulo.setText("Meloidogyne");
 
         // FIrebaseFirestore
         read(intent.getStringExtra("document"), intent.getStringExtra("tipo"));
@@ -84,6 +98,9 @@ public class ConteudoMeloydogine extends AppCompatActivity implements Navigation
                     fields.append(doc.get(tipo));
 
                     conteudo.setText(fields.toString());
+                    wb.getSettings().setJavaScriptEnabled(true);
+                    wb.loadDataWithBaseURL("", fields.toString(), "text/html",
+                            "UTF-8", "");
                 }
             }
         })

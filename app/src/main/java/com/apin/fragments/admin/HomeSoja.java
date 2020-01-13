@@ -31,7 +31,7 @@ public class HomeSoja extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home_soja, container, false);
 
         Button glycines = (Button) view.findViewById(R.id.glycines);
-        Button icognita = (Button) view.findViewById(R.id.icognita);
+        ///*Button icognita = (Button) view.findViewById(R.id.icognita);
         Button javanica = (Button) view.findViewById(R.id.javanica);
         glycines.setOnClickListener(new View.OnClickListener()
         {
@@ -42,7 +42,7 @@ public class HomeSoja extends Fragment {
                 startActivity(intent);
             }
         });
-        icognita.setOnClickListener(new View.OnClickListener()
+        /*icognita.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
@@ -50,7 +50,7 @@ public class HomeSoja extends Fragment {
                 Intent intent = new Intent(getActivity(), EditIncognita.class);
                 startActivity(intent);
             }
-        });
+        });*/
         javanica.setOnClickListener(new View.OnClickListener()
         {
             @Override

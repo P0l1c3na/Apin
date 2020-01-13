@@ -8,12 +8,14 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.TextView;
 
 import com.apin.database.FirebaseConfig;
@@ -24,11 +26,22 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-public class ConteudoHeterodera extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener{
-
+public class ConteudoHeterodera extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+    private String[] imageUrls = new String[]{
+            "https://i.ibb.co/HrCKsWX/microscopia-1.jpg",
+            "https://i.ibb.co/g4Xqy8j/microscopia-2.jpg",
+            "https://i.ibb.co/tzp1vqW/microscopia-3.jpg",
+            "https://i.ibb.co/z885BTW/microscopia-6.jpg",
+            "https://i.ibb.co/JQDJkd6/parte-a-rea-1.jpg",
+            "https://i.ibb.co/QYj7ppq/parte-a-rea-1.png",
+            "https://i.ibb.co/7bpQQny/parte-a-rea-2.jpg",
+            "https://i.ibb.co/FmQWvzR/parte-a-rea-4.jpg",
+            "https://i.ibb.co/s2jKwVm/raiz-1.jpg",
+            "https://i.ibb.co/GpnrD9s/raiz-5.jpg"
+    };
     TextView titulo;
     TextView conteudo;
-
+    WebView wb;
     FirebaseFirestore db = FirebaseConfig.getFirebaseFirestore();
 
 
@@ -37,6 +50,10 @@ public class ConteudoHeterodera extends AppCompatActivity  implements Navigation
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conteudo_heterodera);
         Toolbar toolbar = findViewById(R.id.toolbar);
+
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        ViewPagerAdapter adapter = new ViewPagerAdapter(this, imageUrls);
+        viewPager.setAdapter(adapter);
 
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -57,11 +74,11 @@ public class ConteudoHeterodera extends AppCompatActivity  implements Navigation
 
         // INICIO
         Intent intent = getIntent();
-        String tituloIntent = intent.getStringExtra("titulo");
+        String tituloIntent = intent.getStringExtra("titulo").substring(11, 19);
 
         titulo = findViewById(R.id.titulo);
         conteudo = findViewById(R.id.conteudo);
-
+        wb = findViewById(R.id.webViewHetero);
         titulo.setText(tituloIntent);
 
         // FIrebaseFirestore
@@ -84,6 +101,9 @@ public class ConteudoHeterodera extends AppCompatActivity  implements Navigation
                     fields.append(doc.get(tipo));
 
                     conteudo.setText(fields.toString());
+                    wb.getSettings().setJavaScriptEnabled(true);
+                    wb.loadDataWithBaseURL("", fields.toString(), "text/html",
+                            "UTF-8", "");
                 }
             }
         })

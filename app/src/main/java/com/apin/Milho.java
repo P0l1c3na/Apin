@@ -43,26 +43,13 @@ public class Milho extends AppCompatActivity implements NavigationView.OnNavigat
         navigationView.setNavigationItemSelectedListener(this);
 
         // INICIO
-        intent = new Intent(Milho.this, ConteudoPratylenchus.class);
-
-        Button buttonBrachyaurus = findViewById(R.id.button_brachyauru);
-        buttonBrachyaurus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                intent.putExtra("titulo", "Pratylenchus Brachyurus");
-                intent.putExtra("document", "milho");
-                intent.putExtra("tipo", "pratylenchusbrachyurus");
-                startActivity(intent);
-            }
-        });
-
-        Button buttonZeae = findViewById(R.id.button_zeae);
+        intent = new Intent(Milho.this, ConteudoPratylenchusZeae.class);
+    Button buttonZeae = findViewById(R.id.button_zeae);
         buttonZeae.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                intent.putExtra("titulo", "Pratylenchus Zeae");
+                intent.putExtra("titulo", "Pratylenchus");
                 intent.putExtra("document", "milho");
                 intent.putExtra("tipo", "pratylenchuszeae");
                 startActivity(intent);

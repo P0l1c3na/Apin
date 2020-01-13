@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">APIN</string>
+    <string name="app_name">Apamine Agro</string>
     <string name="heterodera">Heterodera</string>
     <string name="pratylenchus">Pratylenchus</string>
     <string name="meloidogyne">Meloidogyne</string>
-    <string name="title_activity_navigation_drawer">APIN</string>
+    <string name="title_activity_navigation_drawer">Apamine Agro</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -26,23 +26,23 @@
     <string name="menu_wheater">Clima</string>
     <string name="menu_adm">Painel do Administrador</string>
     <string name="menu_send">Send</string>
-    <string name="title_activity_heterodera">Heterodera</string>
+    <string name="title_activity_heterodera">heterodera</string>
 
-    <string name="title_activity_meloidogyne">Meloidogyne</string>
-    <string name="title_activity_pratylenchus">Pratylenchus</string>
+    <string name="title_activity_meloidogyne">meloidogyne</string>
+    <string name="title_activity_pratylenchus">pratylenchus</string>
     <string name="administra_o">Administração</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="esp_cies">Espécies</string>
-    <string name="inc_gnita">Incógnita</string>
-    <string name="javanica">Javanica</string>
-    <string name="glycines">Glycines</string>
+    <string name="inc_gnita">incógnita</string>
+    <string name="javanica" formatted="true">javanica</string>
+    <string name="glycines">glycines</string>
     <string name="cardHomeAdm">Aqui você pode editar o conteúdo disposto na aplicação. \n\n Você também pode adicionar novos adminitradores clicando no botão situado no canto superior
     direito.
         </string>
     <string name="rodrigo">  \tNome: Rodrigo Canedo Machado \n\temail: knedorodrigo@outlook.com\n\tTelefone: (64)999769897</string>
 
-    <string name="prof">   \tNome: Professora \n\temail: fessora@gmail.com \n\tTelefone: (64)999769897</string>
+    <string name="prof">   \tNome: Gleina Costa Silva Alves \n\temail: gleinacosta@gmail.com \n\tTelefone: (64)993044576</string>
 
     <string name="phael">\tNome: Raphael P. Policena Rosa\n\temail: phaelpolicena@gmail.com \n\tBacharelado em Sistemas de \n\tInformação
 
@@ -55,10 +55,10 @@
     <string name="editar_javanica">Editar | Javanica</string>
     <string name="editar_incognita">Editar | Incógnita</string>
     <string name="culturas">Culturas</string>
-    <string name="nemat_ides">Nematóides</string>
-    <string name="sigla">Aplicativo Prático de Identificação de Nematóides</string>
+    <string name="nemat_ides">Nematoides</string>
+    <string name="sigla">Aplicativo para o manejo integrado de nematoides</string>
     <string name="title_activity_contato">Contato</string>
-    <string name="brachyurus">Brachyurus</string>
-    <string name="zeae">Zeae</string>
+    <string name="brachyurus">brachyurus</string>
+    <string name="zeae">zeae</string>
 
 </resources>

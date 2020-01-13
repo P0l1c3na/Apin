@@ -49,13 +49,26 @@ public class Soja extends AppCompatActivity implements NavigationView.OnNavigati
             public void onClick(View v) {
                 intent = new Intent(Soja.this, ConteudoMeloydogine.class);
 
-                intent.putExtra("titulo", "Melodoigyne Javanica");
+                intent.putExtra("titulo", "Melodoigyne");
                 intent.putExtra("document", "soja");
                 intent.putExtra("tipo", "melodoigynejavanica");
                 startActivity(intent);
             }
         });
 
+        Button buttonBrachyaurus = findViewById(R.id.button_brachyauru);
+        buttonBrachyaurus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(Soja.this, ConteudoPratylenchus.class);
+                intent.putExtra("titulo", "Pratylenchus Brachyurus");
+                intent.putExtra("document", "milho");
+                intent.putExtra("tipo", "pratylenchusbrachyurus");
+                startActivity(intent);
+            }
+        });
+
+        /*
         Button buttonMeloidogyneIncognita = findViewById(R.id.button_meloydogyneincognita);
         buttonMeloidogyneIncognita.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +81,7 @@ public class Soja extends AppCompatActivity implements NavigationView.OnNavigati
                 startActivity(intent);
             }
         });
-
+*/
         Button buttonHeterodera = findViewById(R.id.button_heterodera);
         buttonHeterodera.setOnClickListener(new View.OnClickListener() {
             @Override

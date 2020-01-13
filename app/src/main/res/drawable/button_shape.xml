@@ -9,8 +9,12 @@
         android:bottom="12dp"
         android:left="12dp"
         android:right="12dp"
-        android:top="12dp" />
+        android:top="12dp"
+        />
 
+
+    <size
+        android:height="100dp"/>
     <corners
         android:radius="12dp" />
 

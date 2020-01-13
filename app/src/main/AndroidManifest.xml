@@ -32,6 +32,9 @@
             android:name=".ConteudoPratylenchus"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".ConteudoPratylenchusZeae"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Soja"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar" />

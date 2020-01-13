@@ -48,8 +48,17 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="8dp"
+                    android:autoLink="all"
+                    android:autoText="true"
+                    android:cursorVisible="true"
+                    android:editable="true"
                     android:gravity="top"
-                    android:hint="@string/editar_zeae" />
+                    android:hint="@string/editar_zeae"
+                    android:inputType="textAutoCorrect|textWebEditText|textMultiLine"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollHorizontally="false"
+                    android:textIsSelectable="true"
+                    android:textSize="14sp" />
 
 
             </android.support.design.widget.TextInputLayout>
@@ -58,6 +67,8 @@
                 android:id="@+id/btnFab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:verticalScrollbarPosition="defaultPosition"
                 android:layout_weight="1"
                 android:layout_marginBottom="50dp"
                 android:clickable="true"
